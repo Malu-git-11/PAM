@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Cadastro - PWA Firebase</title>
+  <link rel="manifest" href="/manifest.json"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <script type="module" src="/js/register.js" defer></script>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Cadastro</h1>
+
+    <form id="registerForm">
+      <label>Email<input type="email" id="email" required></label>
+      <label>Senha<input type="password" id="password" required minlength="6"></label>
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <p class="msg" id="msg"></p>
+    <p><a href="/login.html">Já tem conta? Entrar</a></p>
+  </main>
+</body>
+
+</html>

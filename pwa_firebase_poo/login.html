@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login - PWA Firebase</title>
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <script type="module" src="/js/login.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label>Email<input type="email" id="email" required></label>
+      <label>Senha<input type="password" id="password" required></label>
+      <button type="submit">Entrar</button>
+    </form>
+    <p class="msg" id="msg"></p>
+    <p><a href="/register.html">Criar conta</a></p>
+  </main>
+</body>
+</html>
